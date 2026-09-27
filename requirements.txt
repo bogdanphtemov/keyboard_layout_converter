@@ -1,0 +1,12 @@
+# Core dependencies
+keyboard>=0.13.5
+pyperclip>=1.8.2
+
+# Windows - additional system libraries
+# (already included in Python: ctypes, winreg)
+
+# For compiling into .exe (optional)
+# pyinstaller>=5.0
+
+# For testing
+pytest>=7.0

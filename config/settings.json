@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "triggers": {
+    "hotkey": {
+      "enabled": true,
+      "combination": "ctrl+shift+k"
+    },
+    "layout_change": {
+      "enabled": false,
+      "comment": "Experimental: auto-convert on layout switch (Win+Space). Enable only if you understand the risks."
+    }
+  },
+  "conversion": {
+    "active_layouts": ["en_ua"]
+  },
+  "autostart": {
+    "enabled": false,
+    "comment": "Explicitly enable via --setup or --install-autostart"
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}
